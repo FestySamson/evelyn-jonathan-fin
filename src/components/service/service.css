@@ -1,0 +1,61 @@
+.services{
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+    opacity: 0;
+    transform: translateY(300px);
+    transition: opacity 2s, transform 2s;
+}
+.services.animate{
+    opacity: 1;
+    transform: translateY(0);
+}
+.services h3{
+    margin: 20px 0;
+    font-size: 25px;
+}
+.service-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.box{
+    width: 100%;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s;
+}
+.box:hover{
+    transform: scale(0.85);
+    cursor: pointer;
+}
+.box img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+@media screen and (min-width:768px) {
+
+
+    .box{
+        width: 40%;
+    }
+    .service-box{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+}
+
+@media screen and (min-width:1000px){
+    .box{
+        width: 30%;
+    }
+}

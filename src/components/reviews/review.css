@@ -1,0 +1,79 @@
+.review{
+    margin-top: 50px;
+    padding: 30px;
+
+}
+.review h3{
+    text-align: center;
+    font-size: 30px;
+}
+.card-box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 30px;
+}
+.cards{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 5px;
+    box-shadow: var(--shadow);
+    opacity: 0;
+    transform: translateY(300px);
+    transition: opacity 2s, transform 2s;
+}
+.cards.animate {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .cards:hover{
+    transform: scale(0.85);
+    cursor: pointer;
+  }
+.star{
+    color: var(--action-color);
+    display: flex;
+    gap: 10px;
+    margin: 7px 0;
+}
+.test{
+    line-height: 27px;
+}
+.rev-img img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.rev-img{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.nn p{
+    margin-top: 5px;
+   
+}
+.fe{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+@media screen and (min-width:768px) {
+    .cards{
+        width: 45%;
+    }
+    .review{
+        margin-top: 80px;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .cards{
+        width: 30%;
+    }
+}

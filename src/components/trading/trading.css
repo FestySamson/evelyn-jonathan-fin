@@ -1,0 +1,55 @@
+.trade{
+    margin-top: 50px;
+    opacity: 0;
+   transform: translateY(300px);
+   transition: opacity 2s, transform 2s;
+}
+.trade.animate{
+    opacity: 1;
+    transform: translateY(0);
+}
+.trade-h3{
+    text-align: center;
+    font-size: 25px;
+}
+.wrap{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 30px;
+    flex-direction: column;
+    gap: 40px;
+}
+.trade-img{
+    width: 100%;
+    height: 300px;
+}
+.trade-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.trade-cry{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.trade-cry img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+@media screen and (min-width:768px) {
+    .wrap{
+        flex-direction: row;
+    }
+    .trade{
+        margin-top: 90px;
+    }
+}

@@ -1,0 +1,47 @@
+/* Home.css or your CSS file */
+.whatsapp-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366; /* WhatsApp green color */
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .whatsapp-icon a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .tel{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+  /* Home.css or your CSS file */
+.telegram-icon {
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1000;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .telegram-icon a {
+    text-decoration: none;
+    color: #fff;
+  }
+  

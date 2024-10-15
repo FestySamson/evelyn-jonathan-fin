@@ -1,0 +1,35 @@
+*,
+ *::before, 
+ *::after {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  scrollbar-width: 0%;
+  font-family: var(--font-family);
+}
+
+html{
+  scroll-behavior: smooth;
+  scrollbar-width: 0%;
+}
+a{
+  text-decoration: none;
+}
+
+:root{
+  --action-color:#FF503F;
+  --text-color:#1a1a1a;
+  --primary-color:#fff;
+  --secondary-color:rgb(17, 17, 17);
+  --section-color:rgb(8, 26, 61);
+  --font-family: 'Roboto', sans-serif;
+  --shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  --gray: #F9F9F9;
+}
+body{
+  scrollbar-width: 0%;
+  margin: 0%;
+  padding: 0%;
+  background: var(--primary-color);
+  font-family: var(--font-family);
+}
